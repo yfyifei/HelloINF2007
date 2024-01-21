@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
         //Format the current date and time using the formatter
         val formattedDateTime = currentDateTime.format(formatter)
 
-        Log.d("MainActivity","OnCreate function is created $formattedDateTime")
+        Log.d("MainActivity","Attack of the killer androids at $formattedDateTime")
         super.onCreate(savedInstanceState)
         setContent {
             MobileLab1Theme {
@@ -65,6 +65,6 @@ fun From(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     MobileLab1Theme {
-        Greeting("INF2007")
+        Greeting("YiFei Wang")
     }
 }
